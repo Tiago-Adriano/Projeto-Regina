@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site</title>
+    <link rel="Stylesheet" href="index.css">
+</head>
+<body>
+    <div class="corpo">
+        <nave>
+            <ul>
+                <li>
+                    <li><a href="#home">Sobre nós</a></li>
+                </li>
+                <li>
+                    <li><a href="#ensino">Ensino</a></li>
+                </li>
+                <li>
+                    <li><a href="#servico">Serviços</a></li>
+                </li>
+                <li>
+                    <li><a href="#contato">Contatos</a></li>
+                </li>
+            </ul>
+        </nave>
+        <header>
+            <div class="center">
+                <img src="./img/ocean.jpg"></img>
+            </div>
+            <h1>Colégio Oceano da Luz</h1>
+            <h2>"Que a sua visão seja mundialmente abrangente"</h2>
+        </header>
+        <main>
+            <section id="#home">
+            <div>
+                <h3>Sobre nós</h3>
+                <h4> Missão</h4>
+                <p>Oferecer uma educação de qualidade, inclusiva e inovadora, promovendo o desenvolvimento integral dos nossos alunos. Buscamos formar cidadãos críticos, criativos e preparados para os desafios do futuro, valorizando o conhecimento, o respeito à diversidade e a construção de um ambiente de aprendizado colaborativo e humanizado.
+                </p>
+                <h4> Visão</h4>
+                <p>Ser reconhecida como uma instituição de excelência educacional, comprometida com a transformação social e o desenvolvimento de competências essenciais para o sucesso profissional e pessoal de nossos alunos. Desejamos ser referência em inovação pedagógica e em práticas que estimulam o protagonismo juvenil e a ética.
+                </p>
+                <h4> Valores</h4>
+                <p>Compromisso com a qualidade</p>
+                <p>Inclusão e respeito à diversidade</p>
+                <p>Ética e transparência</p>
+                <p>Inovação pedagógica</p>
+                <p>Responsabilidade social</p>
+                <p>Sustentabilidade</p>
+            </div>
+            </section>
+            <section id="#servico">
+                <h3>Serviços</h3>
+                <div class="image">
+                    <figure>
+                        <img src="./img/biblioteca1.jpg" alt="Biblioteca">
+                        <figcaption>&copy; Biblioteca</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./img/lab.jpg" alt="Biblioteca">
+                        <figcaption>&copy; Laboratórios</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./img/quadra.jpg" alt="quadra">
+                        <figcaption>&copy; Esportes</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./img/cantina.jpg" alt="cantina">
+                        <figcaption>&copy; Cantina escolar</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section id="#contato"> 
+                <h3>Contato</h3>
+                <p>Preencha o formulário abaixo para entrar em contato conosco:</p>
+                <form action="/submit" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <br><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 OceanodaLuz. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
